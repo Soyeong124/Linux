@@ -26,7 +26,7 @@ import pandas as pd
 df = pd.read_excel('/root/12_04_08_E_CCTV.xlsx')
 
 # %%
-df.to_csv('/root/hadoop-3.3.6/CCTV.csv',encoding='utf-8', header='true')
+df.to_csv('/root/hadoop-3.3.6/CCTV.csv', encoding='utf-8', index = False)
 
 # %%
 df
@@ -51,5 +51,8 @@ df1 = df.groupby(['관리기관명','설치목적구분'])['번호'].count()
 df1
 key_value_dict = dict(df1)
 sorted(key_value_dict.items(),key = lambda x : x[0], reverse=True)
+
+# %%
+print("stop")
 
 # %%
