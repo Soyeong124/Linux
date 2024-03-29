@@ -26,7 +26,7 @@ import pandas as pd
 df = pd.read_excel('/root/12_04_08_E_CCTV.xlsx')
 
 # %%
-df.to_csv('/root/hadoop-3.3.6/CCTV.csv', encoding='utf-8', index = False, header = False)
+df.to_csv('/root/hadoop-3.3.6/CCTV3.csv', encoding='utf-8', index = False, header = False, sep='\t')
 df.to_csv('/root/hadoop-3.3.6/CCTV2.csv', encoding='utf-8', header = False)
 
 # %%
