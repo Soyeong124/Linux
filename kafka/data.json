@@ -1,0 +1,17 @@
+{
+  "p1": [
+    {"id": 1, "name": "Alice"},
+    {"id": 2, "name": "Bob"},
+    {"id": 3, "name": "Charlie"}
+  ],
+  "p2": [
+    {"id": 4, "name": "David"},
+    {"id": 5, "name": "Emma"},
+    {"id": 6, "name": "Frank"}
+  ],
+  "p3": [
+    {"id": 7, "name": "Grace"},
+    {"id": 8, "name": "Henry"},
+    {"id": 9, "name": "Ivy"}
+  ]
+}
